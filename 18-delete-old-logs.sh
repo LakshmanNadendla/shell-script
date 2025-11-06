@@ -14,13 +14,11 @@ else
     exit 1
 fi 
 
-FILES=$(find $COURCE_DIRECTORY -name "*.log" -mtime +14)
+FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 echo "Files to
 
 while IFS= read -r line
 do 
-    echo "Deleting file: $line"
+    echo "Deleting file: $line "
     rm -rf $line
 done <<< $FILES
-
-
