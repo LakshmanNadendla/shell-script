@@ -7,8 +7,8 @@ MOVIES=("RRR" "DjTillu" "murari")
 #list always starts with 0.
 
 echo "First Movie is: ${MOVIES[0]}" #0th index value
-echo "First Movie is: ${MOVIES[1]}"
-echo "First Movie is: ${MOVIES[@]}" #all elements in the array
+echo "Second Movie is: ${MOVIES[1]}"
+echo "All Movies are: ${MOVIES[@]}" #all elements in the array
 
 
 
