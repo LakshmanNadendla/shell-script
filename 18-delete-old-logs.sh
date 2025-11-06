@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURSE_DIRECTORY=/tmp/app_logs
+SOURSE_DIRECTORY=/tmp/app-logs
 
 R="\e[31m"
 G="\e[32m"
